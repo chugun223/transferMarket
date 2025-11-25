@@ -19,7 +19,7 @@ public class FootballClub implements Runnable{
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append("Остаток на счёте клуба" + Name + "после трансферного окна: " + sum + "\n");
+        sb.append("Остаток на счёте клуба " + Name + " " + sum + "\n");
         for(Player player : clubPlayers){
             sb.append(player.toString() + "\n");
         }

@@ -36,8 +36,8 @@ public class Main {
                 new FootballClub(140, "Реал Мадрид", transferMarket),
                 new FootballClub(130, "ПСЖ", transferMarket),
                 new FootballClub(100, "Челси", transferMarket),
-                new FootballClub(80, "Динамо-Москва", transferMarket),
-                new FootballClub(90, "Динамо-Киев", transferMarket)
+                new FootballClub(80, "Динамо Москва", transferMarket),
+                new FootballClub(90, "Динамо Киев", transferMarket)
         ));
         List<Thread> threads = new ArrayList<>();
         for(FootballClub footballClub : footballClubs){
